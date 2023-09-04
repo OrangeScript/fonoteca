@@ -1,6 +1,6 @@
-from src.cancion import Cancion
-from src.interprete import Interprete
-from src.declarative_base import Session, engine, Base
+from src.modelo.cancion import Cancion
+from src.modelo.interprete import Interprete
+from src.modelo.declarative_base import Session, engine, Base
 
 
 if __name__ == '__main__':
